@@ -1,0 +1,188 @@
+.body__container{
+    font-family :'Lato';
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+    overflow:hidden;
+}
+
+a{
+    text-decoration: none;
+}
+.btn{
+  display: inline;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 1px 10px;
+  box-sizing:border-box;
+  color: #fff;
+  background-color: rgb(39,43,45);
+}
+.btn:hover{
+  background-color:#fff;
+  color: #000;
+}
+
+.input--text{
+    margin: 0 auto;
+    height:34px;
+    padding:0 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline:none;
+    font-size: 16px;
+    font-family: 'Lato';
+    display: block;
+    width: 90%;
+}
+
+.clearfix::after{
+    content: "";
+    clear:both;
+    display:block;
+}
+.float--left{
+    float:left;
+}
+.float--right{
+    float:right;
+}
+
+.main-L{
+    color:#272B2D;
+    width: 75%;
+}
+
+/* HEADER */
+.main-L .section{
+    border-bottom: .5px solid #272B2D;
+}
+.main-L .title-group{
+    
+}
+.main-L .title-group .main--title{
+    margin: 10px;
+}
+.main-L .title-group .js-user-form{
+    display:none;
+}
+.main-L .title-group .showing{
+    display:block;
+    margin: 10px;
+}
+#user-input{
+
+}
+.main-L .title-group .js-user{
+    display:none;
+}
+.main-L .title-group .showing{
+    display:block;
+    margin: 10px 20px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.main-L .weather-group{
+    margin: 15px;
+}
+.main-L h6{
+    font-size: 10px;
+}
+.main-L h6 .erase{
+    display: none;
+}
+
+/* MONTHLY AND CALENDAR */
+.main-L .main--section{
+}
+.main-L .main--section .section--monthly{
+    /* border-right: 0.5px solid #272B2D;
+    position: absolute; */
+    width: 30%;
+}
+.main-L .main--section h2{
+    font-size: 30px;
+    padding: 10px 20px 20px 20px;
+    box-sizing :border-box;
+}
+#monthly--input{
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+    margin-bottom: 10px;
+}
+#monthly--input:focus{
+    border-color: #000;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.075), 0 0 5px rgba(39,43,45,.5);
+}
+.main-L .monthly--list .monthly--shown li{
+    display: flex;
+    margin: 6px;
+}
+.main-L .monthly--list .monthly--shown li div{
+    display:flex;
+    justify-content: center;
+    flex-grow: 9;
+    border-bottom: 1px solid #272B2D;
+    padding: 1px 3px 5px;
+    margin-right: 5px;
+}
+.main-L .monthly--list .monthly--shown li .btn{
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.main-L .main--section .section--calendar{
+}
+
+
+/* TODO-LIST */
+.main-R{
+    color: #fff;
+    width: 25%;
+}
+.main-R .section--todo{
+    background-color: #272B2D;
+    padding: 10px;
+    box-sizing:border-box;
+    position: absolute;
+    top: 0;
+    right:0;
+    height:100%;
+    width: 25%;
+}
+.main-R .section--todo .todo--title{
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: right;
+    font-size: 30px;
+}
+.main-R .section--todo .todo--list{
+}
+#todo--input{
+    box-shadow: inset 0 1px 2px rgba(255, 255, 255);
+}
+.main-R .section--todo .todo--list .todo--shown{
+    
+}
+
+.main-R .section--todo .todo--list .todo--shown li{
+    display:flex;
+    margin: 6px;
+}
+.main-R .section--todo .todo--list .todo--shown li div{
+    display:flex;
+    justify-content: center;
+    flex-grow: 9;
+    border-bottom: 1px solid #fff;
+    padding: 1px 3px 5px;
+    margin-right: 5px;
+}
+.main-R .section--todo .todo--list .todo--shown li .btn{
+    display:flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+/* rgb(56, 54, 54); */
