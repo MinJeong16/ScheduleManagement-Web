@@ -1,7 +1,6 @@
 # Creating Webpage Mini personal - project
 Mini project - Schedule Management Webpage. (Javascript, HTML, CSS)
 
-Now, It includes only Todos, Monthly plans.
-Calendar, Storage linking will be added.
+I include a calendar... but it doesn't work if I access by github.io ................... what is the reason!?
 
 [Example to date](https://pillowcoder.github.io/ScheduleManagement-Web/index.html)
