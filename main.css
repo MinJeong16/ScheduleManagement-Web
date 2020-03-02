@@ -58,12 +58,13 @@ a{
 /* HEADER */
 .main-L .section{
     border-bottom: .5px solid #272B2D;
+    height: 60px;
 }
 .main-L .title-group{
     
 }
 .main-L .title-group .main--title{
-    margin: 10px;
+    margin: 20px;
 }
 .main-L .title-group .js-user-form{
     display:none;
@@ -94,17 +95,17 @@ a{
     display: none;
 }
 
-/* MONTHLY AND CALENDAR */
+/* MONTHLY */
 .main-L .main--section{
 }
 .main-L .main--section .section--monthly{
-    /* border-right: 0.5px solid #272B2D;
-    position: absolute; */
+    /* border-right: 0.5px solid #272B2D; */
+    margin-left:10px;
     width: 30%;
 }
 .main-L .main--section h2{
     font-size: 30px;
-    padding: 10px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     box-sizing :border-box;
 }
 #monthly--input{
@@ -136,6 +137,40 @@ a{
 .main-L .main--section .section--calendar{
 }
 
+/* CALENDAR */
+.section--calendar{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 50px;
+}
+.section--calendar .calendar{
+
+}
+.section--calendar .calendar .calendar--header{
+    
+}
+.section--calendar .calendar .calendar--header{
+}
+#calendar-title{
+    font-weight: 700;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#calendar-day .sun{
+    color: red;
+}
+#calendar-day td{
+    padding-right: 20px;
+    font-size: 35px;
+}
+#calendar-day .sat{
+    color: red;
+}
+#calendar-body tr td{
+    font-size: 35px;
+    padding: 15px 5px 0px 0px;
+}
 
 /* TODO-LIST */
 .main-R{
@@ -185,4 +220,3 @@ a{
     flex-grow: 1;
 }
 
-/* rgb(56, 54, 54); */

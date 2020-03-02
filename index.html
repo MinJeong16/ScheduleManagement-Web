@@ -24,7 +24,7 @@
     <meta property="twitter:title" content="Plan your day!">
     <meta property="twitter:description" content="Scheduler can be used any purpose you want!">
     <meta property="twitter:image" content="images/favicon.jpg">
-    <meta property="twitter:url" content="#">
+    <meta property="twitter:url" content="https://pillowcoder.github.io/ScheduleManagement-Web">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
@@ -53,7 +53,7 @@
                         </div>
                     </header>
 
-                    <!-- MONTHLY AND CALENDAR -->
+                    <!-- MONTHLY -->
                     <section class="main--section clearfix">
                         <section class="section--monthly float--left">
                             <h2 class="monthly--title">Monthly Plan</h2>
@@ -64,10 +64,38 @@
                                 <ul class="monthly--shown"></ul>
                             </div>
                         </section>
+
+                        <!-- CALENDAR -->
                         <section class="section--calendar float--right">
-                            Calendar...
+                            <table id="calendar">
+                                <thead>
+                                  <tr class="calendar--header clearfix">
+                                    <td>
+                                      <label id="prev">
+                                          &#60;
+                                      </label>
+                                    </td>
+                                    <td id="calendar-title" colspan="5"></td>
+                                    <td>
+                                      <label id="next">
+                                          &#62;
+                                      </label>
+                                    </td>
+                                  </tr>
+                                  <tr id="calendar-day">
+                                      <td class = "sun" >Sun</td>
+                                      <td >Mon</td>
+                                      <td >Tue</td>
+                                      <td >Wed</td>
+                                      <td >Thu</td>
+                                      <td >Fri</td>
+                                      <td class= "sat">Sat</td>
+                                    </tr>
+                                </thead>
+                                <tbody id="calendar-body" class="calendar--body"></tbody>
+                              </table>
                         </section>
-                    </section>  
+                    </section>
                 </div>
 
                 <!-- TODO LIST -->
@@ -81,6 +109,7 @@
                             </form>
                             <ul class="todo--shown"></ul> 
                         </div>
+                        
                     </aside>
                 </div>
             </div>
@@ -90,5 +119,6 @@
     <script src="username.js"></script>
     <script src="todo.js"></script>
     <script src="weather.js"></script>
+    <script src="calendar.js"></script>
 </body>
 </html>
