@@ -6,4 +6,4 @@ Monthly list will be added.
 Calendar will be added.~~
 Media query will be added.
 
-[Example to date](https://pillowcoder.github.io/ScheduleManagement-Web/index.html)
+[Example to date](https://MinJeong16.github.io/ScheduleManagement-Web/index.html)
